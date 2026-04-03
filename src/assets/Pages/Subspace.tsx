@@ -26,9 +26,7 @@ function Subspace() {
             user privacy.
           </p>
           <p>
-            Users can create or join subspaces (communities), share content, 
-            and engage in meaningful conversations with like-minded individuals 
-            in a clean, ad-free environment.
+            Subspace is a full-stack social and messaging platform focused on meaningful online interactions and user privacy. Designed to encourage interest-based communities and thoughtful discussions, the platform features a self-hostable, end-to-end encrypted messaging system that gives users full control over their data with minimal reliance on centralized services. The project highlights secure architecture, privacy-first design, and scalable real-time communication.
           </p>
         </div>
       </section>

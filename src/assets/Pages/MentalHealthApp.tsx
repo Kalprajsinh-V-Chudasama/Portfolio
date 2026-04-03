@@ -26,8 +26,7 @@ function MentalHealthApp() {
             access guided meditation and breathing exercises.
           </p>
           <p>
-            The platform integrates with wearable devices to provide a holistic 
-            view of the user&apos;s health by combining physical and mental wellness metrics.
+            Mental Health App is a full-stack wellness platform designed to make mental health resources more accessible through digital tools for emotional tracking and stress management. Built with a modern web stack, the application allows users to monitor mood patterns, track stress levels, and access guided meditation and breathing exercises. The project emphasizes user-friendly design, data visualization, and supportive self-care experiences to promote consistent mental well-being.
           </p>
         </div>
       </section>

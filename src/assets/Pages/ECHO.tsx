@@ -5,10 +5,9 @@ function Echo() {
     <div className="page-content">
       <section className="hero sub-hero">
         <h1 className="hero-name">ECHO</h1>
-        <p className="hero-title">Your Project Subtitle</p>
+        <p className="hero-title">App for Dementia Patients</p>
         <p className="hero-description">
-          A brief description of your ECHO project. Explain what it does, 
-          the problem it solves, and what technologies it uses.
+          A smart companion app for dementia patients that combines memory recall, safety tracking, and daily guidance, while giving caregivers remote control.
         </p>
         <div className="hero-buttons">
           <a href="#" className="btn btn-primary">View Live Demo</a>
@@ -20,11 +19,10 @@ function Echo() {
         <h2 className="section-title">Project Overview</h2>
         <div className="about-content">
           <p>
-            Provide a detailed overview of the ECHO project here. Explain the 
-            motivation behind it, the challenges you faced, and how you overcame them.
+            ECHO is a smart companion app for dementia patients that combines memory recall, safety tracking, and daily guidance, while giving caregivers remote control.
           </p>
           <p>
-            Discuss the key features, technologies used, and what makes this project unique.
+            Smart Companion App for Dementia Patients is a full-stack healthcare support platform that helps patients manage daily routines, memory recall, and personal safety while enabling caregivers to monitor and assist remotely. Built using React, Node.js, and a real-time backend system, the application features GPS tracking, smart reminders, emergency alerts, and role-based dashboards. The project focuses on accessibility, real-time communication, and human-centered design to improve independence for patients and peace of mind for caregivers.
           </p>
         </div>
       </section>
