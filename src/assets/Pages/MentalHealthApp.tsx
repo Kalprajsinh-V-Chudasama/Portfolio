@@ -1,4 +1,7 @@
 import '../../App.css'
+import MhDashboard from '../../assets/mh-dashboard.svg'
+import MhMoodTracker from '../../assets/mh-mood-tracker.svg'
+import MhAnalytics from '../../assets/mh-analytics.svg'
 
 function MentalHealthApp() {
   return (
@@ -35,7 +38,14 @@ function MentalHealthApp() {
         <h2 className="section-title">Key Features</h2>
         <div className="projects-grid">
           <article className="project-card">
-            <div className="project-placeholder"><span>01</span></div>
+            <div className="feature-icon" style={{background: 'linear-gradient(135deg, #e9456020, #e9456040)'}}>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                <line x1="9" y1="9" x2="9.01" y2="9"/>
+                <line x1="15" y1="9" x2="15.01" y2="9"/>
+              </svg>
+            </div>
             <div className="project-info">
               <h3 className="project-title">Mood Tracker</h3>
               <p className="project-description">
@@ -44,7 +54,11 @@ function MentalHealthApp() {
             </div>
           </article>
           <article className="project-card">
-            <div className="project-placeholder"><span>02</span></div>
+            <div className="feature-icon" style={{background: 'linear-gradient(135deg, #e9456020, #e9456040)'}}>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
             <div className="project-info">
               <h3 className="project-title">Vital Monitoring</h3>
               <p className="project-description">
@@ -53,7 +67,13 @@ function MentalHealthApp() {
             </div>
           </article>
           <article className="project-card">
-            <div className="project-placeholder"><span>03</span></div>
+            <div className="feature-icon" style={{background: 'linear-gradient(135deg, #e9456020, #e9456040)'}}>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2">
+                <path d="M12 2a10 10 0 1010 10"/>
+                <path d="M12 6v6l4 2"/>
+                <path d="M18 2v4h4"/>
+              </svg>
+            </div>
             <div className="project-info">
               <h3 className="project-title">AI Recommendations</h3>
               <p className="project-description">
@@ -97,9 +117,18 @@ function MentalHealthApp() {
       <section className="section">
         <h2 className="section-title">Project Screenshots</h2>
         <div className="screenshots-grid">
-          <div className="screenshot-placeholder">Dashboard View</div>
-          <div className="screenshot-placeholder">Mood Tracker</div>
-          <div className="screenshot-placeholder">Analytics</div>
+          <div className="screenshot-image">
+            <img src={MhDashboard} alt="Dashboard" />
+            <span className="screenshot-label">Wellness Dashboard</span>
+          </div>
+          <div className="screenshot-image">
+            <img src={MhMoodTracker} alt="Mood Tracker" />
+            <span className="screenshot-label">Mood Tracker</span>
+          </div>
+          <div className="screenshot-image">
+            <img src={MhAnalytics} alt="Analytics" />
+            <span className="screenshot-label">Analytics</span>
+          </div>
         </div>
       </section>
 
@@ -126,6 +155,42 @@ function MentalHealthApp() {
           justify-content: center;
           color: var(--text-muted);
           font-size: 0.875rem;
+        }
+        .screenshot-image {
+          aspect-ratio: 16/9;
+          background: var(--card-bg);
+          border: 1px solid var(--border);
+          border-radius: 12px;
+          overflow: hidden;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+        }
+        .screenshot-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .screenshot-label {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 0.75rem;
+          background: linear-gradient(transparent, rgba(0,0,0,0.8));
+          color: var(--text-muted);
+          font-size: 0.875rem;
+          text-align: center;
+        }
+        .feature-icon {
+          height: 150px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid var(--border);
+        }
+        .projects-grid .project-card {
+          padding: 0;
         }
         .project-nav {
           display: flex;

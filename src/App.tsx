@@ -3,25 +3,31 @@ import './App.css'
 import Echo from './assets/Pages/ECHO'
 import MentalHealthApp from './assets/Pages/MentalHealthApp'
 import Subspace from './assets/Pages/Subspace'
+import EchoLogo from './assets/echo-logo.svg'
+import MentalHealthLogo from './assets/mental-health-logo.svg'
+import SubspaceLogo from './assets/subspace-logo.svg'
 
 const projects = [
   {
     title: "ECHO",
     description: "a project designed to help people having Dementia.",
     tags: ["React", "Node.js", "MongoDB"],
-    link: "/echo"
+    link: "/echo",
+    logo: EchoLogo
   },
   {
     title: "Mental Health App",
     description: "a project designed to help people check their vitals and mental health and suggesting them with the best possible solutions.",
     tags: ["TypeScript", "Next.js", "PostgreSQL"],
-    link: "/MentalHealthApp"
+    link: "/MentalHealthApp",
+    logo: MentalHealthLogo
   },
   {
     title: "Subspace",
     description: "a project designed to help people connect with each other and share their thoughts and ideas.",
     tags: ["React", "API Integration", "CSS3"],
-    link: "/Subspace"
+    link: "/Subspace",
+    logo: SubspaceLogo
   }
 ]
 
@@ -98,8 +104,8 @@ function App() {
           <div className="projects-grid">
             {projects.map((project, index) => (
               <article key={index} className="project-card">
-                <div className="project-placeholder">
-                  <span>{String(index + 1).padStart(2, '0')}</span>
+                <div className="project-logo">
+                  <img src={project.logo} alt={project.title} />
                 </div>
                 <div className="project-info">
                   <h3 className="project-title">{project.title}</h3>

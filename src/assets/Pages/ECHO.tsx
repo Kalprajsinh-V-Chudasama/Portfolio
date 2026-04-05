@@ -1,4 +1,7 @@
 import '../../App.css'
+import EchoDashboard from '../../assets/echo-dashboard.svg'
+import EchoCaregiver from '../../assets/echo-caregiver.svg'
+import EchoReminders from '../../assets/echo-reminders.svg'
 
 function Echo() {
   return (
@@ -31,35 +34,44 @@ function Echo() {
         <h2 className="section-title">Key Features</h2>
         <div className="projects-grid">
           <article className="project-card">
-            <div className="project-placeholder">
-              <span>01</span>
+            <div className="feature-icon" style={{background: 'linear-gradient(135deg, #64ffda20, #64ffda40)'}}>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#64ffda" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
             </div>
             <div className="project-info">
-              <h3 className="project-title">Feature One</h3>
+              <h3 className="project-title">Smart Reminders</h3>
               <p className="project-description">
-                Description of the first major feature of your ECHO project.
+                Automated daily reminders for medications, appointments, and activities to maintain routines.
               </p>
             </div>
           </article>
           <article className="project-card">
-            <div className="project-placeholder">
-              <span>02</span>
+            <div className="feature-icon" style={{background: 'linear-gradient(135deg, #64ffda20, #64ffda40)'}}>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#64ffda" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
             </div>
             <div className="project-info">
-              <h3 className="project-title">Feature Two</h3>
+              <h3 className="project-title">GPS Location Tracking</h3>
               <p className="project-description">
-                Description of the second major feature of your ECHO project.
+                Real-time location monitoring to ensure patient safety and quick response in emergencies.
               </p>
             </div>
           </article>
           <article className="project-card">
-            <div className="project-placeholder">
-              <span>03</span>
+            <div className="feature-icon" style={{background: 'linear-gradient(135deg, #64ffda20, #64ffda40)'}}>
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#64ffda" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
             </div>
             <div className="project-info">
-              <h3 className="project-title">Feature Three</h3>
+              <h3 className="project-title">Caregiver Dashboard</h3>
               <p className="project-description">
-                Description of the third major feature of your ECHO project.
+                Remote monitoring dashboard for caregivers to track patient well-being and receive alerts.
               </p>
             </div>
           </article>
@@ -99,9 +111,18 @@ function Echo() {
       <section className="section">
         <h2 className="section-title">Project Screenshots</h2>
         <div className="screenshots-grid">
-          <div className="screenshot-placeholder">Screenshot 1</div>
-          <div className="screenshot-placeholder">Screenshot 2</div>
-          <div className="screenshot-placeholder">Screenshot 3</div>
+          <div className="screenshot-image">
+            <img src={EchoDashboard} alt="ECHO Dashboard" />
+            <span className="screenshot-label">Patient Dashboard</span>
+          </div>
+          <div className="screenshot-image">
+            <img src={EchoCaregiver} alt="Caregiver View" />
+            <span className="screenshot-label">Caregiver Dashboard</span>
+          </div>
+          <div className="screenshot-image">
+            <img src={EchoReminders} alt="Daily Reminders" />
+            <span className="screenshot-label">Daily Reminders</span>
+          </div>
         </div>
       </section>
 
@@ -147,6 +168,42 @@ function Echo() {
           justify-content: center;
           color: var(--text-muted);
           font-size: 0.875rem;
+        }
+        .screenshot-image {
+          aspect-ratio: 16/9;
+          background: var(--card-bg);
+          border: 1px solid var(--border);
+          border-radius: 12px;
+          overflow: hidden;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+        }
+        .screenshot-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .screenshot-label {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 0.75rem;
+          background: linear-gradient(transparent, rgba(0,0,0,0.8));
+          color: var(--text-muted);
+          font-size: 0.875rem;
+          text-align: center;
+        }
+        .feature-icon {
+          height: 150px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid var(--border);
+        }
+        .projects-grid .project-card {
+          padding: 0;
         }
 
         .project-nav {

@@ -1,0 +1,32 @@
+<svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="225" fill="#1a1a2e"/>
+  <rect x="10" y="10" width="380" height="205" rx="8" fill="#16213e"/>
+  <rect x="20" y="20" width="360" height="185" rx="4" fill="#1a1a2e"/>
+  <text x="40" y="45" fill="#e94560" font-size="14" font-family="Arial" font-weight="bold">How are you feeling today?</text>
+  <rect x="40" y="60" width="320" height="80" rx="6" fill="#16213e"/>
+  <circle cx="80" cy="100" r="25" fill="#e94560" opacity="0.3"/>
+  <text x="70" y="105" fill="#e94560" font-size="20">😊</text>
+  <text x="70" y="135" fill="#e94560" font-size="8" font-family="Arial">Happy</text>
+  <circle cx="140" cy="100" r="25" fill="#e94560" opacity="0.3"/>
+  <text x="130" y="105" fill="#e94560" font-size="20">😌</text>
+  <text x="128" y="135" fill="#e94560" font-size="8" font-family="Arial">Calm</text>
+  <circle cx="200" cy="100" r="25" fill="#e94560" opacity="0.3"/>
+  <text x="190" y="105" fill="#e94560" font-size="20">😐</text>
+  <text x="188" y="135" fill="#e94560" font-size="8" font-family="Arial">Neutral</text>
+  <circle cx="260" cy="100" r="25" fill="#e94560" opacity="0.3"/>
+  <text x="250" y="105" fill="#e94560" font-size="20">😔</text>
+  <text x="248" y="135" fill="#e94560" font-size="8" font-family="Arial">Sad</text>
+  <circle cx="320" cy="100" r="25" fill="#e94560" opacity="0.3"/>
+  <text x="310" y="105" fill="#e94560" font-size="20">😰</text>
+  <text x="305" y="135" fill="#e94560" font-size="8" font-family="Arial">Anxious</text>
+  <rect x="40" y="155" width="320" height="40" rx="6" fill="#16213e"/>
+  <text x="55" y="175" fill="#e94560" font-size="10" font-family="Arial">Add a note about your mood...</text>
+  <rect x="280" y="163" width="70" height="24" rx="12" fill="#e94560" opacity="0.5"/>
+  <text x="300" y="178" fill="#e94560" font-size="10" font-family="Arial" font-weight="bold">Log Mood</text>
+  <rect x="40" y="205" width="150" height="30" rx="6" fill="#16213e"/>
+  <circle cx="65" cy="220" r="10" fill="#e94560" opacity="0.4"/>
+  <text x="85" y="225" fill="#e94560" font-size="10" font-family="Arial">View History</text>
+  <rect x="210" y="205" width="150" height="30" rx="6" fill="#16213e"/>
+  <circle cx="235" cy="220" r="10" fill="#e94560" opacity="0.4"/>
+  <text x="255" y="225" fill="#e94560" font-size="10" font-family="Arial">Insights</text>
+</svg>

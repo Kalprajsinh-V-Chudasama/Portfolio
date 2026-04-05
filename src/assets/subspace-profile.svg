@@ -1,0 +1,26 @@
+<svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="225" fill="#0d1b2a"/>
+  <rect x="10" y="10" width="380" height="205" rx="8" fill="#1b263b"/>
+  <rect x="20" y="20" width="360" height="60" rx="4" fill="#0d1b2a"/>
+  <rect x="30" y="30" width="50" height="50" rx="25" fill="#7b68ee" opacity="0.5"/>
+  <text x="42" y="60" fill="#0d1b2a" font-size="16" font-family="Arial" font-weight="bold">JD</text>
+  <rect x="90" y="35" width="100" height="8" rx="4" fill="#7b68ee" opacity="0.5"/>
+  <rect x="90" y="50" width="60" height="6" rx="3" fill="#7b68ee" opacity="0.3"/>
+  <text x="90" y="70" fill="#7b68ee" font-size="9" font-family="Arial" opacity="0.7">@johndoe</text>
+  <rect x="300" y="40" width="70" height="25" rx="4" fill="#7b68ee" opacity="0.3"/>
+  <text x="322" y="56" fill="#7b68ee" font-size="9" font-family="Arial" font-weight="bold">Follow</text>
+  <rect x="20" y="90" width="115" height="45" rx="4" fill="#0d1b2a"/>
+  <text x="45" y="110" fill="#7b68ee" font-size="16" font-family="Arial" font-weight="bold">1.2k</text>
+  <text x="35" y="125" fill="#7b68ee" font-size="8" font-family="Arial">Posts</text>
+  <rect x="145" y="90" width="115" height="45" rx="4" fill="#0d1b2a"/>
+  <text x="170" y="110" fill="#7b68ee" font-size="16" font-family="Arial" font-weight="bold">5.8k</text>
+  <text x="165" y="125" fill="#7b68ee" font-size="8" font-family="Arial">Followers</text>
+  <rect x="270" y="90" width="110" height="45" rx="4" fill="#0d1b2a"/>
+  <text x="295" y="110" fill="#7b68ee" font-size="16" font-family="Arial" font-weight="bold">234</text>
+  <text x="285" y="125" fill="#7b68ee" font-size="8" font-family="Arial">Following</text>
+  <rect x="20" y="145" width="360" height="60" rx="4" fill="#0d1b2a"/>
+  <text x="35" y="162" fill="#7b68ee" font-size="9" font-family="Arial">Software Developer 💻</text>
+  <text x="35" y="178" fill="#7b68ee" font-size="9" font-family="Arial">Building cool stuff with React & Node</text>
+  <text x="35" y="194" fill="#7b68ee" font-size="8" font-family="Arial" opacity="0.6">San Francisco, CA</text>
+  <rect x="20" y="210" width="360" height="4" rx="2" fill="#0d1b2a"/>
+</svg>
